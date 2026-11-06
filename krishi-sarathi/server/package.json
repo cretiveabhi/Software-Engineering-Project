@@ -1,0 +1,25 @@
+{
+  "name": "krishi-sarathi-server",
+  "version": "1.0.0",
+  "description": "Krishi Sarathi - Smart India Hackathon 2026 Procurement Portal Backend",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "migrate": "node src/scripts/migrate.js",
+    "seed": "node src/scripts/seed.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0",
+    "pg": "^8.11.5",
+    "qrcode": "^1.5.3",
+    "uuid": "^9.0.1"
+  }
+}

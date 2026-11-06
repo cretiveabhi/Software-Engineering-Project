@@ -1,0 +1,12 @@
+{
+  "name": "krishi-sarathi",
+  "version": "1.0.0",
+  "description": "Smart India Hackathon 2026 - Krishi Sarathi Smart Procurement Portal",
+  "private": true,
+  "scripts": {
+    "install:all": "cd server && npm install && cd ../client && npm install",
+    "start:server": "cd server && npm start",
+    "start:client": "cd client && npm run dev",
+    "seed": "cd server && npm run seed"
+  }
+}
